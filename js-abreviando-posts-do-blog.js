@@ -19,7 +19,7 @@ while ((frases = gets()) !== '.') {
         const abreviacao = str[0].concat('.');
         const titulo = abreviacao.concat(' = ').concat(str);
         const regexp = new RegExp(`\\b${str}\\b`, 'g');
-        return { str, strTamanho, abreviacao, titulo, regexp }
+        return { str, strTamanho, abreviacao, titulo, regexp };
     });
 
     /* .split('') -  o alfabeto, será tranformado em array*/
@@ -30,7 +30,7 @@ while ((frases = gets()) !== '.') {
         return arrObjStrings
             .filter(aux => aux.str.match(new RegExp(`\\b${letra}\\w{2,}\\b`, 'g')))
             .reduce((acc, curr) => curr.strTamanho >= acc.strTamanho ? curr : acc, { strTamanho: 0 });
-    }).filter(el => el.strTamanho > 0) /*filtra as letras que tem o tamanho maior que 0*/
+    }).filter(el => el.strTamanho > 0); /*filtra as letras que tem o tamanho maior que 0*/
 
     /*Subtitui a frase inicial com a abreviacao padrao*/
     for (const abrev of abreviacoes) frases = frases.replace(abrev.regexp, abrev.abreviacao);
