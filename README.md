@@ -1,4 +1,4 @@
-## Treinamento Digital Innovation One - Exercicio - Barras de Ouro
+## Treinamento Digital Innovation One - Exercicio - Abreviando Posts do Blog
 
 O exercicio publicado é referente ao treinamento do BOOTCAMP - Desenvolvedor NodeJS -  Resolvendo Algoritmos Com JavaScript.
 (https://digitalinnovation.one)
