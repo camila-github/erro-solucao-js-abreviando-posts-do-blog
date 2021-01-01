@@ -30,7 +30,7 @@ Exemplos de Entrada  | Exemplos de Saída
 ------------- | -------------
 abcdef abc abc abc | a. abc abc abc
 . | 1
-| a. = abcdef
+" " | a. = abcdef
 
 
 
