@@ -109,7 +109,7 @@ while ((frases = gets()) !== '.') {
 
 
 
-//SOLUÇÃO 2
+//SOLUCAO 2
 while ((frases = gets()) !== '.') {
     /* .match(/\b[a-z]{1,30}\b/g) - busca palavras que tem apenas letras minusculas, ate 30 carateres.*/
     const frase = frases.match(/\b[a-z]{1,30}\b/g);
